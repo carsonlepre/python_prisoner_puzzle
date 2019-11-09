@@ -8,8 +8,6 @@ import random
 
 first_lever_state = random.randint(0,1) # count lever position, randomized initially
 second_lever_state = random.randint(0,1) # dummy lever position, randomized initially
-#print(str(first_lever_state) + " " + str(second_lever_state))
-#print("------")
 
 prisoners = np.arange(0,99,1) # Generate list of prisoners
 lever_tally = 0 # Counter for number of times COUNT PRISONER sees the COUNT LEVER in "up" position.
